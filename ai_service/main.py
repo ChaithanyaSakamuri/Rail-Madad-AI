@@ -264,4 +264,7 @@ Return a JSON object:
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+    port = int(os.getenv("PORT", 8000))
+    reload_mode = os.getenv("PORT") is None # Reload only in local dev
+    uvicorn.run("main:app", host="0.0.0.0", port=port, reload=reload_mode)
+
