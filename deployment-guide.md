@@ -30,7 +30,7 @@ The AI service must be deployed first so the Node.js backend can connect to it.
    * Click **Advanced** and add the following key:
      * `GEMINI_API_KEY`: Your Gemini API token (`AIzaSy...`).
 6. **Deploy**: Click **Create Web Service**.
-   * *Once deployed, copy the service URL (e.g., `https://rail-madad-ai-service.onrender.com`).*
+   * *Once deployed, copy the service URL (e.g., `https://rail-madad-ai-3rl5.onrender.com`).*
 
 ---
 
@@ -49,10 +49,10 @@ The AI service must be deployed first so the Node.js backend can connect to it.
      * `MONGODB_URI`: `mongodb+srv://chaituchowdary301_db_user:4IUZggQtECbqqvBD@cluster0.hwwn7tt.mongodb.net/railmadad?retryWrites=true&w=majority`
      * `JWT_SECRET`: Any random 32+ character secret key.
      * `JWT_EXPIRE`: `7d`
-     * `AI_SERVICE_URL`: The URL of your FastAPI service copied from Step 1 (e.g., `https://rail-madad-ai-service.onrender.com`).
-     * `CORS_ORIGIN`: Your Vercel frontend URL (you can update this after Step 3).
+     * `AI_SERVICE_URL`: The URL of your FastAPI service copied from Step 1 (e.g., `https://rail-madad-ai-3rl5.onrender.com`).
+     * `CORS_ORIGIN`: Your Vercel frontend URL (e.g., `https://rail-madad-ai-bay.vercel.app`).
 5. **Deploy**: Click **Create Web Service**.
-   * *Once deployed, copy your API URL (e.g., `https://rail-madad-api.onrender.com`).*
+   * *Once deployed, copy your API URL (e.g., `https://rail-madad-ai-1.onrender.com`).*
 
 ---
 
@@ -65,10 +65,10 @@ The AI service must be deployed first so the Node.js backend can connect to it.
    * **Root Directory**: Click edit and select the `client` folder.
 4. **Add Environment Variables**:
    * Expand **Environment Variables** and add:
-     * `VITE_API_BASE_URL`: Your Render backend API URL + `/api` (e.g., `https://rail-madad-api.onrender.com/api`).
+     * `VITE_API_BASE_URL`: Your Render backend API URL + `/api` (e.g., `https://rail-madad-ai-1.onrender.com/api`).
 5. **Deploy**: Click **Deploy**.
 6. **Update CORS on Render Backend**:
-   * Once Vercel generates your production link (e.g., `https://rail-madad-ai.vercel.app`), go back to your **Render API Service settings**, and update the `CORS_ORIGIN` env variable with your new Vercel link to allow connection.
+   * Once Vercel generates your production link (e.g., `https://rail-madad-ai-bay.vercel.app`), go back to your **Render API Service settings**, and update the `CORS_ORIGIN` env variable with your new Vercel link to allow connection.
 
 ---
 

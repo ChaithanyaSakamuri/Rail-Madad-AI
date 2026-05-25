@@ -4,6 +4,14 @@ An AI-powered grievance auto-routing, tracking, and management system for Indian
 
 ---
 
+## 🔗 Deployed Links
+
+* **Live Application Frontend (Vercel)**: [https://rail-madad-ai-bay.vercel.app/](https://rail-madad-ai-bay.vercel.app/)
+* **Backend Express API (Render)**: [https://rail-madad-ai-1.onrender.com](https://rail-madad-ai-1.onrender.com)
+* **AI NLP Microservice (Render)**: [https://rail-madad-ai-3rl5.onrender.com](https://rail-madad-ai-3rl5.onrender.com)
+
+---
+
 ## 🚀 Key Features
 
 1. **Multilingual AI NLP Engine (FastAPI + Gemini):**
