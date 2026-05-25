@@ -24,24 +24,6 @@ const seedData = async () => {
     // 1. Create Admins
     const admins = [
       {
-        name: 'Sakamuri Chaithanya',
-        email: 'chaituchowdary301@gmail.com',
-        password: 'Deepya@23',
-        role: 'admin',
-      },
-      {
-        name: 'Kilaru Rajesh',
-        email: 'kilarurajesh23@gmail.com',
-        password: 'Deepya@23',
-        role: 'admin',
-      },
-      {
-        name: 'Sakhamuri Deepya',
-        email: 'sakhamurideepya23@gmail.com',
-        password: 'Deepya@23',
-        role: 'admin',
-      },
-      {
         name: 'Rail Madad Administrator',
         email: 'admin@railmadad.gov.in',
         password: 'Admin@123',
@@ -211,7 +193,7 @@ const seedData = async () => {
         category: 'Safety/Crime',
         priority: 'P1', // 15 mins SLA (created 40 mins ago, breaching SLA!)
         status: 'Escalated',
-        assignedOfficer: seededAdmins[3]._id, // Escalated to Admin
+        assignedOfficer: seededAdmins[0]._id, // Escalated to Admin
         slaDeadline: minsAgo(25), // Breached 25 mins ago!
         escalationLevel: 1,
         aiDetails: {
@@ -286,7 +268,6 @@ const seedData = async () => {
     console.log('   --------------------------------------------------------------');
     console.log('   Role: ADMIN');
     console.log('     Email: admin@railmadad.gov.in  | Password: Admin@123');
-    console.log('     Email: chaituchowdary301@gmail.com | Password: Deepya@23');
     console.log('   --------------------------------------------------------------');
     console.log('   Role: PASSENGER');
     console.log('     Email: passenger@gmail.com     | Password: Passenger@123');

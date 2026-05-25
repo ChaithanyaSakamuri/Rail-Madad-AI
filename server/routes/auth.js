@@ -21,10 +21,7 @@ router.post('/signup', async (req, res) => {
 
     // Force certain emails to be Admin for ease of testing
     const adminEmails = [
-      'admin@railmadad.gov.in',
-      'chaituchowdary301@gmail.com',
-      'kilarurajesh23@gmail.com',
-      'sakhamurideepya23@gmail.com'
+      'admin@railmadad.gov.in'
     ];
     
     let userRole = role || 'passenger';
