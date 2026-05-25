@@ -93,11 +93,11 @@ const seedData = async () => {
 
     // 3. Create Sample Passenger
     const passenger = new User({
-      name: 'Rohan Verma',
+      name: 'Sakamuri Chaithanya',
       email: 'passenger@gmail.com',
       password: 'Passenger@123',
       role: 'passenger',
-      phoneNumber: '+919876543210'
+      phoneNumber: '+918309040423'
     });
     await passenger.save();
     console.log('✅ Sample Passenger created (passenger@gmail.com / Passenger@123).');

@@ -100,7 +100,7 @@ npm run dev
 | Account Role | Email Address | Password | Department / Assigned Zone |
 | :--- | :--- | :--- | :--- |
 | **ADMIN** | `admin@railmadad.gov.in` | `Admin@123` | Control Room Command |
-| **PASSENGER** | `passenger@gmail.com` | `Passenger@123` | Rohan Verma (+91 9876543210) |
+| **PASSENGER** | `passenger@gmail.com` | `Passenger@123` | Sakamuri Chaithanya (+91 8309040423) |
 | **TTE OFFICER** | `tte@railmadad.gov.in` | `Officer@123` | TTE - Train 12951 |
 | **STATION MASTER** | `sm@railmadad.gov.in` | `Officer@123` | Station Master - NDLS Station |
 | **RPF OFFICER** | `rpf@railmadad.gov.in` | `Officer@123` | RPF Inspector - Northern Railway |

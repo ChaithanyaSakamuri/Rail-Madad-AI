@@ -228,7 +228,7 @@ export default function Auth({ mode = 'login' }) {
                   required
                   value={phoneNumber}
                   onChange={(e) => setPhoneNumber(e.target.value)}
-                  placeholder="+91 9876543210"
+                  placeholder="+91 8309040423"
                   className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-red-500 transition text-white"
                 />
               </div>
